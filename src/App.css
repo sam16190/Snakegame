@@ -1,0 +1,57 @@
+/* App.css */
+.App {
+  text-align: center;
+}
+
+.game {
+  margin: 20px auto;
+  width: 400px;
+}
+
+.game-pit {
+  border: 2px solid #333;
+  height: 200px;
+  position: relative;
+}
+
+.snake, .diamond, .player {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+}
+
+.snake {
+  background-color: red;
+}
+
+.diamond {
+  background-color: blue;
+  border-radius: 50%;
+}
+
+.player {
+  background-color: green;
+}
+
+.score-board {
+  margin-top: 10px;
+}
+
+.button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
